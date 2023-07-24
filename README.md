@@ -1,2 +1,2 @@
 # RollingBall
- Simple ball-rolling game practice
+ Simple 3D ball-rolling game practice

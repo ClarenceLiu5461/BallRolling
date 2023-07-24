@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class CheeseCube : MonoBehaviour
 {
@@ -9,9 +8,9 @@ public class CheeseCube : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("YOU WIN!");
+            other.GetComponent<RollingBall>().cheeseCubeEaten++;
+            other.GetComponent<RollingBall>().CheckThreshold();
             Destroy(gameObject);
-            SceneManager.LoadScene("Level1");
         }
     }
 }

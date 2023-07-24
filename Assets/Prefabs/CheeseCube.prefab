@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 7436267986616336483}
   - component: {fileID: 7436267986616336482}
   - component: {fileID: 7436267986616336481}
-  - component: {fileID: 7268183436125932213}
+  - component: {fileID: -2596242044404889525}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: CheeseCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -115,7 +115,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7268183436125932213
+--- !u!114 &-2596242044404889525
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
